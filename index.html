@@ -1,33 +1,66 @@
 <html>
+
 <body>
   <style>
-  div.a {
-    text-align:left;
-  }
-  div.b{
-    text-align:right;
-  }
-  div.c{
-    text-align:center;
-  }
-  </style>
-    <div class="a">
-  <h1>Gopi Krishna</h1>
-  <img src="https://www.seekpng.com/png/full/80-803527_html5-css3-and-javascript-logos-html5-logo-png.png" height="100" width="70">
-  </div>
-  <div class="b">
-    <h2><a href=" "> Home <br></a> <a href=" ">About me<br> </a> <a href=" ">Skills<br> </a></a> <a href=" ">Contact</a></h2>
-      </div>
-      <br>
-      <br>
-      <br>
-      <div class="c">
-      <h1 style ="background-color:DodgerBlue; color:whitesmoke"> <br><br>Hi ,I am Gopi krishna <br>Software developer<br><br><br><br></h1></div>
-      </div>
-      <h1>Skills</h1>
-      <br> <p>HTML  CSS  JAVA  PYTHON</p>
+    div.a {
+      text-align: left;
+    }
 
-        
+    div.b {
+      text-align: right;
+    }
+
+    div.c {
+      text-align: center;
+    }
+    .header-nav {
+      width:100%;
+    }
+    .header-nav .nav-div {
+      display:flex;
+      flex-direction: row-reverse;
+    }
+    .header-nav ul {
+      width: fit-content;
+      
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    .header-nav ul>li {
+      display: inline;
+      margin-left:5px;
+      margin-right:5px;
+      padding:5px;
+    }
+  </style>
+  <table class = "header-nav">
+    <tr>
+      <td>
+        Gopi Krishna
+      </td>
+      <td class="nav-div">
+        <ul>
+          <li><a href=" "> Home </a></li>
+          <li><a href=" ">About me </a></li>
+          <li><a href=" ">Skills </a></li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+      
+    </div>
+  </div>
+  <div class="c">
+    <h1 style="background-color:DodgerBlue; color:whitesmoke"> <br><br>Hi ,I am Gopi krishna <br>Software
+      developer<br><br><br><br></h1>
+  </div>
+  </div>
+  <h1>Skills</h1>
+  <br>
+  <p>HTML CSS JAVA PYTHON</p>
+
+
 </body>
+
 </html>
-  
